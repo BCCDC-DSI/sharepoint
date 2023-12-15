@@ -1,4 +1,4 @@
-# sharepoint
+# Sharepoint
 
 # Notation
 
