@@ -11,7 +11,9 @@
 | $Z$ | |
 
 # Binary outcomes
-- risk ratio, odds ratio
+- Risk ratio
+- Odds ratio
 - ...
 
 # Modeling binary outcomes
+- ...
