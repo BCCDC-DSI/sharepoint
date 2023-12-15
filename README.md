@@ -1,6 +1,6 @@
 # Sharepoint
 
-Template for ``statistical snacks''
+Template for "statistical snacks"
 
 |  |  |
 | :-- | :-- |
