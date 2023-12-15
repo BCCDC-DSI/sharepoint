@@ -8,7 +8,7 @@
 | $K$ | Number of independent (observable) variables |
 | $i=1 ... n$ | $i$-th sample  |
 | $j=1 ... K$ | $j$-th variable |
-| $X_{ij} = 1$ | Independent variable for person $i$ |
+| $X_{ij} = 1$ | $j$-th independent variable of sample $i$ |
 | $Y$ | Dependent variable |
 | $Z$ | |
 
