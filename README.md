@@ -4,9 +4,10 @@
 
 | Notation | Definition |
 |:-- | :-- |
-| $n$ | Sample size |
-| $i=1 ... n$ | Sample index |
-| $j=1 ... K$ | Index to variable set (aka attributes) |
+| $n$ | Number of samples |
+| $K$ | Number of independent (observable) variables |
+| $i=1 ... n$ | $i$-th sample  |
+| $j=1 ... K$ | $j$-th variable |
 | $X_{ij} = 1$ | Independent variable for person $i$ |
 | $Y$ | Dependent variable |
 | $Z$ | |
