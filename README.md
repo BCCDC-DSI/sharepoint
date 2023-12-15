@@ -1,6 +1,14 @@
 # Sharepoint
 
+Template for ``statistical snacks''
+
+|  |  |
+| :-- | :-- |
+| Readers will learn to... | |
+| Language(s) involved | R, STATA |
+
 # Notation
+
 
 | Notation | Definition |
 |:-- | :-- |
