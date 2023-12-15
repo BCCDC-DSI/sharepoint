@@ -7,7 +7,7 @@
 | $n$ | Sample size |
 | $i=1 ... n$ | Sample index |
 | $j=1 ... K$ | Index to variable set (aka attributes) |
-| $X_ij = 1$ | Independent variable for person $i$ |
+| $X_{ij} = 1$ | Independent variable for person $i$ |
 | $Y$ | Dependent variable |
 | $Z$ | |
 
