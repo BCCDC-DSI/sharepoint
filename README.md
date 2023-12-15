@@ -13,9 +13,20 @@
 | $Z$ | |
 
 # Binary outcomes
-- Risk ratio
-- Odds ratio
-- ...
+  - Risk ratio
+  - Odds ratio
+  - ...
+  
+  ```
+  poisson outcome exposure confounder [fweight = freq], irr r
+  ```
+  
+  ```
+  model <- glm(outcome~exposure+confounder, family=poissson(link=log), data=dataset)
+  library("sandwich")
+  library("lmtest")
+  coeftest(model, vcov = sandwich)
+  ```
 
 # Modeling binary outcomes
 - ...
