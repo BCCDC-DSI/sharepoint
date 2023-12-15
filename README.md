@@ -7,8 +7,10 @@ Template for "statistical snacks"
 | Readers will learn to... | |
 | Language(s) involved | R, STATA |
 
+# R/ Python conventions
+- packages at the top
+  
 # Notation
-
 
 | Notation | Definition |
 |:-- | :-- |
@@ -30,9 +32,9 @@ Template for "statistical snacks"
   ```
   
   ```
-  model <- glm(outcome~exposure+confounder, family=poissson(link=log), data=dataset)
   library("sandwich")
   library("lmtest")
+  model <- glm(outcome~exposure+confounder, family=poissson(link=log), data=dataset)
   coeftest(model, vcov = sandwich)
   ```
 
