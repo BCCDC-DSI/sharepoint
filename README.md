@@ -1,17 +1,14 @@
 # Sharepoint
 
-## Conventions
-Template for "statistical snacks"
+## Possible template for "statistical snacks"
 
 |  |  |
 | :-- | :-- |
 | Readers will learn to... | |
 | Language(s) involved | R, STATA |
 
-# R/ Python conventions
-- packages at the top
   
-# Notation
+## Notation
 
 | Notation | Definition |
 |:-- | :-- |
@@ -23,21 +20,7 @@ Template for "statistical snacks"
 | $Y$ | Dependent variable |
 | $Z$ | |
 
-# Binary outcomes
-  - Risk ratio
-  - Odds ratio
-  - ...
-  
-  ```
-  poisson outcome exposure confounder [fweight = freq], irr r
-  ```
-  
-  ```
-  library("sandwich")
-  library("lmtest")
-  model <- glm(outcome~exposure+confounder, family=poissson(link=log), data=dataset)
-  coeftest(model, vcov = sandwich)
-  ```
 
-# Modeling binary outcomes
-- ...
+## R/ Python conventions
+- packages at the top
+
