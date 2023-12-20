@@ -2,6 +2,8 @@
 
 # R setting up on your desktop station 
 
+Warning: Local R version vs. version on server
+
 1. Anaconda Powershell
 2. Create virtual environment (VE) named ```R```
    ```
