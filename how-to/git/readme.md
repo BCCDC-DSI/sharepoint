@@ -1,6 +1,6 @@
  
 
-# R setting up on your desktop station 
+# Installing R and Git on your desktop station 
 
 Warning: Local R version vs. version on server
 
@@ -18,12 +18,14 @@ Warning: Local R version vs. version on server
    conda install -c anaconda git
    ```
 
-## Other commands
+## Other Conda commands
 
 To see what was installed in your VE, issue:
   ```
   conda list
   ```
+
+
 
 # Tips & Best Practices
 
