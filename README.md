@@ -1,5 +1,6 @@
 # Sharepoint
 
+## Conventions
 Template for "statistical snacks"
 
 |  |  |
