@@ -18,6 +18,13 @@ Warning: Local R version vs. version on server
    conda install -c anaconda git
    ```
 
+## Other commands
+
+To see what was installed in your VE, issue:
+  ```
+  conda list
+  ```
+
 # Tips & Best Practices
 
 ## Use Universal Naming Convention (UNC) instead of dos path 
