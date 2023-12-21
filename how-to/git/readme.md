@@ -1,6 +1,6 @@
  
 
-# Installing R and Git on your desktop station 
+# Create virtual environment with latest R and Git on your desktop station 
 
 Warning: Local R version vs. version on server
 
@@ -25,6 +25,9 @@ To see what was installed in your VE, issue:
   conda list
   ```
 
+## Git
+
+[Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
 
 
 # Tips & Best Practices
