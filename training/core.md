@@ -1,7 +1,7 @@
 # Public health competancy 
 
-Health promotion education program evaluation skills
-- [Publication in 2008; did not find revision on Dec 20, 2023](https://www.phac-aspc.gc.ca/php-psp/ccph-cesp/pdfs/cc-manual-eng090407.pdf)
+- Health promotion education program
+- Core skillset [publication in 2008; did not find revision on Dec 20, 2023](https://www.phac-aspc.gc.ca/php-psp/ccph-cesp/pdfs/cc-manual-eng090407.pdf)
 
 ## Summary listing
 
