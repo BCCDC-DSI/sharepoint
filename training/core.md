@@ -14,9 +14,7 @@
 	- chronic diseases
 	- infectious diseases
 	- psychosocial problems
-	- injury
- 
-###	Knowledge areas
+	- injury knowledge areas
 	- health status of populations
 	- inequities in health
 	- determinats of health and illness
