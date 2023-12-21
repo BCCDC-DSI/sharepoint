@@ -13,7 +13,7 @@ Warning: Local R version vs. version on server
    ```
    conda activate R
    ```
-5. Install Git via anaconda channel (```-c``` switch):
+5. Install Git via "anaconda" channel (```-c``` switch; c stands for channel):
    ```
    conda install -c anaconda git
    ```
