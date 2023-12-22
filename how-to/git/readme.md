@@ -18,6 +18,18 @@ Warning: Local R version vs. version on server
    conda install -c anaconda git
    ```
 
+# Adding other environments in the same VE
+
+1. Python:
+   ```
+   conda install python ipython
+   ```
+   
+2. Other Python packages
+   ```
+   conda install plotly streamlit
+   ```
+   
 ## Other Conda commands
 
 To see what was installed in your VE, issue:
@@ -36,5 +48,5 @@ To see what was installed in your VE, issue:
 
   R example
   ```
-  sys.setenv(RENV_PATHS_CACHE = "O:/BCCDC/Groups/Analytics_Resources/Coding/R/global_renv/cache") 
+  sys.setenv(RENV_PATHS_CACHE = "\\phsabc\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache") 
   ```
