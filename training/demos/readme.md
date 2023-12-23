@@ -11,12 +11,13 @@
 conda create name_of_vir_enviorn
 ```
 
-## Returning to your sessoin
+## Returning to your session
 
 1. Reactivate virtual environment that is named ```python3.11```:
     ```
     conda activate python3.11  
-    conda install streamlit
+    conda install streamlit   # akin to R Shiny
+    conda install -c conda-forge polars  # queries for large database 
     ```
     
 1. If you wish to use Juypter notebook, create a kernel specs using ```ipykernel-py3.11```:
