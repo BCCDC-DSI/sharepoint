@@ -37,6 +37,11 @@ To see what was installed in your VE, issue:
   conda list
   ```
 
+## Create/ Update Jupyter kernel
+
+To create a kernel of the VE for use in Jupyter notebook, issue:
+```ipython kernel install --user --name=r3.6-py3.11-streamlit```
+
 ## Git
 
 [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
