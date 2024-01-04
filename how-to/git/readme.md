@@ -8,15 +8,21 @@ You may need to install Anaconda 3 first.
 
 On Windows: ```START > Anaconda3 > Git Bash```
 
-To change into a folder location, use ```cd```, e.g.:
+To change into a directory (i.e. folder location), use ```cd```, e.g.:
 ```
 cd /o/BCCDC/Groups/Analytics/Data Science and Innovation/GitRepositories
 ```
 
+To make a new directory, use ```mkdir```
+```
+mkdir /o/BCCDC/Groups/new_group
+```
+
+
 ## Conda
 
 <details>
- <summary>Conda</summary>
+<summary>Conda</summary>
 
 ### Create virtual environment with latest R and Git on your desktop station 
 
