@@ -5,7 +5,7 @@
 
 > Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. Bash is an acronym for Bourne Again Shell. A shell is a terminal application used to interface with an operating system through written commands.
 
-You may need to install Anaconda 3 first.
+You may need to install ```Anaconda 3``` first.
 
 On Windows: ```START > Anaconda3 > Git Bash```
 
