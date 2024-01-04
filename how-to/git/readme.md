@@ -57,7 +57,7 @@ To create a kernel of the VE for use in Jupyter notebook, e.g.:
 
 ### Abstract
 
-Below adapted from [EHS group](\\root\BCCDC\Groups\EHS\Research and Surveillance\Projects\GitRepositories\Git_Instructions.pdf).
+Below adapted from [EHS](\\root\BCCDC\Groups\EHS\Research%20and%20Surveillance\Projects\GitRepositories\Git_Instructions.pdf)
 
 You create a new **master** copy that will be stored **locally** on your computer whenever you clone from a remote repository via a command like this:
 ```git clone \\root\BCCDC\Groups\Analytics\Data Science and Innovation\Research_Development_Training\Research and Development\Projects\p06_PHIDO_dashboard\GitHub" my_phido_dashboard```
