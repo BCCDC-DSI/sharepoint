@@ -43,6 +43,7 @@ Warning: Local R version vs. version on server
    ```
 
 ### Adding other environments in the same VE
+<a id="py_packages"></a>
 
 1. Python:
    ```
@@ -64,19 +65,22 @@ To see what was installed in your VE, issue:
   ```
 
 </details>
+
+
  
 ## Python
 <details>
-<summary>Git</summary>
-### Create/ Update Jupyter kernel
 
-To create a kernel of the VE for use in Jupyter notebook, e.g.:
+- To install Python and Python packages, [see](#py_packages)  
+- To Create/ Update Jupyter kernel for use in Jupyter notebook:
 ```ipython kernel install --user --name=r3.6-py3.11-streamlit```
+  where ```r3.6-py3.11-streamlit``` is the name of the kernel that you may select from on the menu
 
 </details>
 
+
 <details>
-<summary>Git</summary>
+<summary>Using Git</summary>
  
 [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
 
