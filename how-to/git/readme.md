@@ -1,6 +1,22 @@
- 
+# How-to
 
-# Create virtual environment with latest R and Git on your desktop station 
+## Git Bash
+
+> Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. Bash is an acronym for Bourne Again Shell. A shell is a terminal application used to interface with an operating system through written commands.
+
+You may need to install Anaconda 3 first.
+
+On Windows: ```START > Anaconda3 > Git Bash```
+
+To change into a folder location, use ```cd```, e.g.:
+```
+cd /o/BCCDC/Groups/Analytics/Data Science and Innovation/GitRepositories
+```
+
+<details>
+ <summary>Conda</summary>
+
+## Create virtual environment with latest R and Git on your desktop station 
 
 Warning: Local R version vs. version on server
 
@@ -18,7 +34,7 @@ Warning: Local R version vs. version on server
    conda install -c anaconda git
    ```
 
-# Adding other environments in the same VE
+## Adding other environments in the same VE
 
 1. Python:
    ```
@@ -32,6 +48,8 @@ Warning: Local R version vs. version on server
    
 ## Other Conda commands
 
+[List under construction]
+
 To see what was installed in your VE, issue:
   ```
   conda list
@@ -43,13 +61,18 @@ To create a kernel of the VE for use in Jupyter notebook, e.g.:
 
 ```ipython kernel install --user --name=r3.6-py3.11-streamlit```
 
+</details>
 
 
-## Git
 
+
+<details>
+<summary>Git</summary>
+ 
 [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
 
 Acknowledgement: below notes adapted from EHS (\\root\BCCDC\Groups\EHS\Research%20and%20Surveillance\Projects\GitRepositories\Git_Instructions.pdf).
+
 
 | Terms | Meaning |
 | :-- | :-- |
@@ -58,10 +81,12 @@ Acknowledgement: below notes adapted from EHS (\\root\BCCDC\Groups\EHS\Research%
 
 ### Abstract
 
-You create a new **master** copy that will be stored **locally** on your computer whenever you clone from a remote repository via a command like this:
-```git clone \\root\BCCDC\Groups\Analytics\Data Science and Innovation\Research_Development_Training\Research and Development\Projects\p06_PHIDO_dashboard\GitHub" my_phido_dashboard```
 
-The above creates a folder called ```my_phido_dashboard```.
+You create a new **master** copy that will be stored **locally** on your computer whenever you clone from a remote repository via a command like this:
+```git clone https://github.com/BCCDC-DSI/CANUE-ML.git```
+
+Note that the command above creates a folder called ```CANUE-ML``` while the one below creates a folder called ```my_phido_dashboard```:
+```git clone O:\BCCDC\Groups\Analytics\Data Science and Innovation\Research_Development_Training\Research and Development\Projects\p06_PHIDO_dashboard\GitHub" my_phido_dashboard```
 
 Each new session/day, it is good practice to compare your local copy with the remote one:
 ```git remote show origin```
@@ -76,6 +101,14 @@ To update your local copy, issue:
 
 To update the remote copy, i.e. "publish" your changes for every interested user of the remote repository, **replace ```pull``` from above with ```push```**; i.e. you **push** the local changes **up** to the remote.
 
+### Starting a bare repository from scratch
+
+```
+mkdir U:\GitRepos
+git init --bare
+git remote add origin "U:\GitRepositories\test"
+git push origin master
+```
 
 ### Branch
 
@@ -113,12 +146,13 @@ git branch -d beta_version
 4. Repeat steps 2-4 for other tasks as needed.
 5. Push changes to the remote repository when ready.
 
+</details>
 
 
-# Tips & Best Practices
+## Tips & Best Coding Practices
 
-## Use Universal Naming Convention (UNC) instead of dos path 
-
+1. Use Universal Naming Convention (UNC) instead of dos path
+2. 
   R example
   ```
   sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache") 
