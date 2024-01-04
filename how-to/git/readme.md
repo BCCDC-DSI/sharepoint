@@ -1,6 +1,7 @@
 # How-to
 
 ## Git Bash
+<a id='gitbash'></a>
 
 > Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. Bash is an acronym for Bourne Again Shell. A shell is a terminal application used to interface with an operating system through written commands.
 
@@ -111,10 +112,39 @@ To update the remote copy, i.e. "publish" your changes for every interested user
 
 ### Starting a bare repository from scratch
 
+In [Git Bash](#gitbash), issue commands like this:
 ```
-mkdir U:\GitRepos
+cd /o/BCCDC/Groups/Analytics/Data\ Science\ and\ Innovation/
+
+mkdir Collaborations
+cd Collaborations
+
+mkdir NLP-Overdose
+cd NLP-Overdose
+
 git init --bare
-git remote add origin "U:\GitRepositories\test"
+```
+
+**Note: The ```bare``` means that the folder will NOT be a ```working``` directory**.
+
+The output will look like:
+```
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in //phsabc.ehcnet.ca/root/BCCDC/Groups/Analytics/Data Science and Innovation/Collaborations/NLP-Overdose/
+```
+
+Suppose further that you started a folder in your own folder ```U:\myprojects\NLP```, then issue:
+```
+git remote add origin "U:\myprojects\NLP"
 git push origin master
 ```
 
@@ -148,15 +178,13 @@ git branch -d beta_version
 
 ### Typical workflow
 
-1. Work on your branch.
-2. Stage files that you want to commit.
-3. Commit the changes.
-4. Repeat steps 2-4 for other tasks as needed.
-5. Push changes to the remote repository when ready.
+A cycle of:
+1. Work on your local branch.
+2. ```Stage``` and ```Commit``` files that you want to archive/ publish
+3. ```Push``` changes to the remote repository when ready.
 
 ### Additional resources
 - [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
-
 
 </details>
 
