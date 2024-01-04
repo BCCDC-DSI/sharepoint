@@ -190,9 +190,7 @@ A cycle of:
 
 ## Tips & Best Coding Practices
 
-1. Use Universal Naming Convention (UNC) instead of dos path
-2. 
-  R example
+1. Use Universal Naming Convention (UNC) instead of dos path; an example in R:
   ```
   sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache") 
   ```
