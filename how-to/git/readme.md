@@ -78,22 +78,17 @@ To see what was installed in your VE, issue:
 
 </details>
 
-
+## Git
 <details>
-<summary>Using Git</summary>
  
-[Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
-
 Acknowledgement: below notes adapted from EHS (\\root\BCCDC\Groups\EHS\Research%20and%20Surveillance\Projects\GitRepositories\Git_Instructions.pdf).
-
 
 | Terms | Meaning |
 | :-- | :-- |
 | ```master``` | local copy, typically refers to your copy |
 | ```origin``` | remote copy |
 
-### Abstract
-
+### Quick summary
 
 You create a new **master** copy that will be stored **locally** on your computer whenever you clone from a remote repository via a command like this:
 ```git clone https://github.com/BCCDC-DSI/CANUE-ML.git```
@@ -158,6 +153,10 @@ git branch -d beta_version
 3. Commit the changes.
 4. Repeat steps 2-4 for other tasks as needed.
 5. Push changes to the remote repository when ready.
+
+### Additional resources
+- [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
+
 
 </details>
 
