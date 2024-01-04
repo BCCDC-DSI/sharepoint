@@ -13,10 +13,12 @@ To change into a folder location, use ```cd```, e.g.:
 cd /o/BCCDC/Groups/Analytics/Data Science and Innovation/GitRepositories
 ```
 
+## Conda
+
 <details>
  <summary>Conda</summary>
 
-## Create virtual environment with latest R and Git on your desktop station 
+### Create virtual environment with latest R and Git on your desktop station 
 
 Warning: Local R version vs. version on server
 
@@ -34,7 +36,7 @@ Warning: Local R version vs. version on server
    conda install -c anaconda git
    ```
 
-## Adding other environments in the same VE
+### Adding other environments in the same VE
 
 1. Python:
    ```
@@ -46,7 +48,7 @@ Warning: Local R version vs. version on server
    conda install plotly streamlit
    ```
    
-## Other Conda commands
+### Other Conda commands
 
 [List under construction]
 
@@ -55,16 +57,17 @@ To see what was installed in your VE, issue:
   conda list
   ```
 
-## Create/ Update Jupyter kernel
+</details>
+ 
+## Python
+<details>
+<summary>Git</summary>
+### Create/ Update Jupyter kernel
 
 To create a kernel of the VE for use in Jupyter notebook, e.g.:
-
 ```ipython kernel install --user --name=r3.6-py3.11-streamlit```
 
 </details>
-
-
-
 
 <details>
 <summary>Git</summary>
