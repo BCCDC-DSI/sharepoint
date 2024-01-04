@@ -49,6 +49,7 @@ To create a kernel of the VE for use in Jupyter notebook, e.g.:
 
 [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
 
+Acknowledgement: below notes adapted from EHS (\\root\BCCDC\Groups\EHS\Research%20and%20Surveillance\Projects\GitRepositories\Git_Instructions.pdf).
 
 | Terms | Meaning |
 | :-- | :-- |
@@ -56,8 +57,6 @@ To create a kernel of the VE for use in Jupyter notebook, e.g.:
 | ```origin``` | remote copy |
 
 ### Abstract
-
-Below adapted from [EHS](\\root\BCCDC\Groups\EHS\Research%20and%20Surveillance\Projects\GitRepositories\Git_Instructions.pdf)
 
 You create a new **master** copy that will be stored **locally** on your computer whenever you clone from a remote repository via a command like this:
 ```git clone \\root\BCCDC\Groups\Analytics\Data Science and Innovation\Research_Development_Training\Research and Development\Projects\p06_PHIDO_dashboard\GitHub" my_phido_dashboard```
