@@ -103,6 +103,7 @@ git branch -d beta_version
 
 ### Staging 
 
+[To be expanded]
 
 ### Typical workflow
 
@@ -120,5 +121,5 @@ git branch -d beta_version
 
   R example
   ```
-  sys.setenv(RENV_PATHS_CACHE = "\\phsabc\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache") 
+  sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache") 
   ```
