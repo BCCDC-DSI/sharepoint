@@ -23,7 +23,6 @@ mkdir /o/BCCDC/Groups/new_group
 ## Conda
 
 <details>
-<summary>Conda</summary>
 
 ### Create virtual environment with latest R and Git on your desktop station 
 
