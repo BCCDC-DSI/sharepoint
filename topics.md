@@ -24,6 +24,5 @@
 ## Possible topics
 
 ### On setup
-[Getting started with Git and Anaconda on your local station](how-to/git/readme.md)
 
 [STATS 545](https://stat545.stat.ubc.ca/course/)
