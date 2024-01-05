@@ -80,7 +80,7 @@ To see what was installed in your VE, issue:
 
 ## R 
 <details>
-   <summary>R Studio</summary>
+### R Studio
 
 [Summary of ](file:///O:/BCCDC/Groups/Analytics/Data%20Science%20and%20Innovation/Research_Development_Training/Training%20and%20Education/Educational%20Development/Sharepoint%20Analytic%20Training/presentation_1.html)
 
@@ -108,7 +108,7 @@ Tools -> Global Options -> **Code**
 6. Diagnostics: 
 - Check all boxes
 
-<summary>Environment variables</summary>
+### Environment variables
 1. ```U:\R``` points to ```R_USER``` 
 
 2. Add below to your ```.Renviron``` file on a new line:
