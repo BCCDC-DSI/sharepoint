@@ -189,6 +189,7 @@ See [notes](git.md)
 
 </details>
       
+<hr>
 
 <details>
 <Summary>Best practices</Summary>
