@@ -183,10 +183,9 @@ source(paste0(script_folder, "do_analysis.R"))
 </details>
 
 ### Git
-<Details>
-   See [notes](git.md)
+<details>
+See [notes](git.md)
 </details>
-
 
 </details>
       
