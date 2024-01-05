@@ -193,7 +193,9 @@ See [notes](git.md)
 <details>
 <Summary>Best practices</Summary>
 
-## Naming files
+## Organization
+
+### Naming files and folders
 
 1. Use Universal Naming Convention (UNC) instead of dos path
 
@@ -215,6 +217,11 @@ See [notes](git.md)
       /o/BCCDC/Groups/Analytics/Data\ Science\ and\ Innovation/
       ```
 
+## Processes
+- inter-team communication
+- intra-team communication
+  
+## Documentation 
 
 ## Coding practices (not specific to programming language)
 1. List packages at the top
