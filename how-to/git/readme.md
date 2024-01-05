@@ -1,4 +1,4 @@
-Topics:
+# Topics
 
 <details>
 <summary>Getting started</summary>
@@ -185,7 +185,6 @@ source(paste0(script_folder, "do_analysis.R"))
 
 ## Git
 <details>
- 
 Acknowledgement: below notes adapted from EHS (\\root\BCCDC\Groups\EHS\Research%20and%20Surveillance\Projects\GitRepositories\Git_Instructions.pdf).
 
 | Terms | Meaning |
@@ -315,7 +314,8 @@ git branch -d beta_version
 </details>
 </details>
       
-<details><Summary>Best practices</Summary>
+<details>
+<Summary>Best practices</Summary>
 
 ## Naming files
 
