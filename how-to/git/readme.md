@@ -1,7 +1,32 @@
-# How-to
+Topics:
+- Getting started
+<details>
+<Summary>Best practices</Summary>
+## Coding practices
 
-## Git Bash
-<a id='gitbash'></a>
+Ideally, use nouns when naming variables and verbs when naming functions:
+
+```
+# Good
+example_text <- example_function(
+  first_argument = "Some text",
+  second_argument = "More text"
+)
+```
+
+```
+# Bad
+some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
+```
+</details>
+
+</details>
+
+# Getting Started
+
+
+## Bash <a id='gitbash'></a>
+<details>
 
 > Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. Bash is an acronym for Bourne Again Shell. A shell is a terminal application used to interface with an operating system through written commands.
 
@@ -18,7 +43,7 @@ To make a new directory, use ```mkdir```
 ```
 mkdir /o/BCCDC/Groups/new_group
 ```
-
+</details>
 
 ## Conda
 
@@ -67,24 +92,6 @@ To see what was installed in your VE, issue:
 </details>
 
 
-## Coding practices
-
-<details>
-Ideally, use nouns when naming variables and verbs when naming functions:
-
-```
-# Good
-example_text <- example_function(
-  first_argument = "Some text",
-  second_argument = "More text"
-)
-```
-
-```
-# Bad
-some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
-```
-</details>
  
 ## Python
 <details>
