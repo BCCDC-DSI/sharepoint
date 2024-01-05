@@ -114,6 +114,14 @@ Tools -> Global Options -> **Code**
 2. Add below to your ```.Renviron``` file on a new line:
 ```R_LIBS_USER=${R_USER}/Library/%v```
 
+### Coding practices & Do's and Don'ts 
+- Comments should explain what & why you are doing, not how
+- remove outdated comments
+- Simple code preferred over complex (likewise its implications on comments)
+- Generally 3 types of scripts:
+   ```load_```
+   ```clean_```
+   ```func_```
 
 ### Template of a typical R script
 
@@ -302,7 +310,12 @@ git branch -d beta_version
 
 ## Tips & Best Coding Practices
 
-1. Use Universal Naming Convention (UNC) instead of dos path; an example in R:
-  ```
-  sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache") 
-  ```
+### Use Universal Naming Convention (UNC) instead of dos path
+
+- An example in R:
+```
+sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache")
+```
+
+- Below will work in Windows' ```File Explorer```
+```//phsabc/root/BCCDC/Groups/Analytics_Resources/```
