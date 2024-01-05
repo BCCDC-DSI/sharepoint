@@ -3,10 +3,13 @@
 ### How-to's
 - [Select the right type of literature review](https://rightreview.knowledgetranslation.net/site/methods)
 <details>
-<summary>Publish GitHub pages</summary>
+<Summary>Publish GitHub pages</Summary>
+
 Note: this is possible only when repository is public   
-```Settings``` > ```Pages``` > ```Deploy```   
-</details> 
+
+```Settings``` > ```Pages``` > ```Deploy```
+
+</details>
 
 <hr>
 <details>
