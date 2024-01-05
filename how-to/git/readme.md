@@ -2,8 +2,32 @@ Topics:
 - Getting started
 <details>
 <Summary>Best practices</Summary>
-## Coding practices
 
+## Naming files
+
+1. Use Universal Naming Convention (UNC) instead of dos path
+
+  - An example in R:
+  ```
+  sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache")
+  ```
+  
+  - Below will work in Windows' ```File Explorer```
+  ```//phsabc/root/BCCDC/Groups/Analytics_Resources/```
+
+2. Folder namng: replace white space with underscore 
+
+  e.g. UNC path   
+  ```
+  /o/BCCDC/Groups/Analytics/Data_Analysts
+  ```
+  
+  ```
+  /o/BCCDC/Groups/Analytics/GIS_restricted
+  ```
+
+
+## Coding practices (not specific to programming language)
 Ideally, use nouns when naming variables and verbs when naming functions:
 
 ```
@@ -337,25 +361,3 @@ git branch -d beta_version
 </details>
 
 
-## Tips & Best Coding Practices
-
-### Use Universal Naming Convention (UNC) instead of dos path
-
-- An example in R:
-```
-sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache")
-```
-
-- Below will work in Windows' ```File Explorer```
-```//phsabc/root/BCCDC/Groups/Analytics_Resources/```
-
-### Folder namng: replace white space with underscore 
-
-e.g. UNC path   
-```
-/o/BCCDC/Groups/Analytics/Data_Analysts
-```
-
-```
-/o/BCCDC/Groups/Analytics/GIS_restricted
-```
