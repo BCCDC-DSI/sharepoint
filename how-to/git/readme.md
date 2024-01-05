@@ -1,6 +1,7 @@
 Topics:
 
-<details><summary>Getting started</summary>
+<details>
+<summary>Getting started</summary>
 
 ## Bash <a id='gitbash'></a>
 <details>
@@ -312,14 +313,9 @@ git branch -d beta_version
 - [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
 
 </details>
-
-
-
-
 </details>
       
-<details>
-<Summary>Best practices</Summary>
+<details><Summary>Best practices</Summary>
 
 ## Naming files
 
@@ -359,7 +355,6 @@ example_text <- example_function(
 # Bad
 some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
 ```
-</details>
 
 </details>
 
