@@ -3,10 +3,11 @@
 ### How-to's
 <details>
 <summary>Publish GitHub pages</summary>
+Note: this is possible only when repository is public   
 ```
-   Settings > Pages
+Settings > Pages
 ```   
-</details>details>
+</details> 
    
 <details>
 <summary>Getting started on software</summary>
