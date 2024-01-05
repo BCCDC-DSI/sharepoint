@@ -78,6 +78,39 @@ To see what was installed in your VE, issue:
 
 </details>
 
+## R 
+<details>
+   <summary>R Studio</summary>
+
+[Summary of ](file:///O:/BCCDC/Groups/Analytics/Data%20Science%20and%20Innovation/Research_Development_Training/Training%20and%20Education/Educational%20Development/Sharepoint%20Analytic%20Training/presentation_1.html)
+
+Tools -> Global Options -> **Basic Settings***
+
+Workspace: 
+- Uncheck “Restore .RData into workspace at startup”
+- Change “Save workspace to .RData on exit:” to “Never”
+
+History:
+- Uncheck “Always save history (even when not saving .RData)”
+
+Tools -> Global Options -> **Code**
+
+Editing tab: 
+- Check “Insert spaces for tab” and set “Tab width” to 2
+
+Display tab: 
+- Check “Show margin” and set “Margin column” to 80
+
+Saving Tab: 
+- Check “Ensure that source files end with newline”
+- Check “Strip trailing horizontal whitespace when saving”
+
+Diagnostics: 
+- Check all boxes
+
+
+</details>
+
 ## Git
 <details>
  
