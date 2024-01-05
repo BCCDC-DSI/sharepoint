@@ -109,6 +109,38 @@ To update your local copy, issue:
 
 To update the remote copy, i.e. "publish" your changes for every interested user of the remote repository, **replace ```pull``` from above with ```push```**; i.e. you **push** the local changes **up** to the remote.
 
+
+### Typical workflow
+
+A cycle of:
+1. Work on your local branch.
+2. ```Stage``` and ```Commit``` files that you want to archive/ publish
+3. ```Push``` changes to the remote repository when ready.
+
+
+### Staging 
+
+[To be expanded]
+
+
+### Making changes and commiting to the ```origin```
+```
+git add --all
+git commit -am "<commit message>"
+git push
+```
+Or run in 1 line:
+
+```
+git add-commit -m 'My commit message
+```
+
+**After** having created command alias called ```add-commit``` with this:
+```
+git config --global alias.add-commit '!git add -A && git commit'
+```
+
+
 ### Starting a bare repository from scratch
 
 In [Git Bash](#gitbash), issue commands like this:
@@ -147,6 +179,7 @@ git remote add origin "U:\myprojects\NLP"
 git push origin master
 ```
 
+
 ### Branch
 
 A branch is a new version, usually for experimentation of a "small" change. 
@@ -170,17 +203,6 @@ If you no longer need the experimental version and wish to delete it, issue:
 ```
 git branch -d beta_version
 ```
-
-### Staging 
-
-[To be expanded]
-
-### Typical workflow
-
-A cycle of:
-1. Work on your local branch.
-2. ```Stage``` and ```Commit``` files that you want to archive/ publish
-3. ```Push``` changes to the remote repository when ready.
 
 ### Additional resources
 - [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
