@@ -186,7 +186,6 @@ source(paste0(script_folder, "do_analysis.R"))
 <details>
 See [notes](git.md)
 </details>
-
 </details>
       
 <hr>
@@ -218,8 +217,9 @@ See [notes](git.md)
 
 
 ## Coding practices (not specific to programming language)
-Ideally, use nouns when naming variables and verbs when naming functions:
+1. List packages at the top
 
+2. Ideally, use nouns when naming variables and verbs when naming functions:
 ```
 # Good
 example_text <- example_function(
@@ -233,5 +233,8 @@ example_text <- example_function(
 some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
 ```
 
+## Dash boarding best practices
+[Under construnction](training/dashboards.md)
+ 
 </details>
 
