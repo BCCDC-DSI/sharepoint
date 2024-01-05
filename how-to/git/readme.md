@@ -86,28 +86,33 @@ To see what was installed in your VE, issue:
 
 Tools -> Global Options -> **Basic Settings***
 
-Workspace: 
+1. Workspace: 
 - Uncheck “Restore .RData into workspace at startup”
 - Change “Save workspace to .RData on exit:” to “Never”
 
-History:
+2. History:
 - Uncheck “Always save history (even when not saving .RData)”
 
 Tools -> Global Options -> **Code**
 
-Editing tab: 
+3. Editing tab: 
 - Check “Insert spaces for tab” and set “Tab width” to 2
 
-Display tab: 
+4. Display tab: 
 - Check “Show margin” and set “Margin column” to 80
 
-Saving Tab: 
+5. Saving Tab: 
 - Check “Ensure that source files end with newline”
 - Check “Strip trailing horizontal whitespace when saving”
 
-Diagnostics: 
+6. Diagnostics: 
 - Check all boxes
 
+<summary>Environment variables</summary>
+1. ```U:\R``` points to ```R_USER``` 
+
+2. Add below to your ```.Renviron``` file on a new line:
+```R_LIBS_USER=${R_USER}/Library/%v```
 
 </details>
 
