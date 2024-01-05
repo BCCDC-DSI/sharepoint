@@ -103,7 +103,7 @@ some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text
 
 Summary below adapted from [R Working Group Cookbook](file:///O:/BCCDC/Groups/Analytics/Data%20Science%20and%20Innovation/Research_Development_Training/Training%20and%20Education/Educational%20Development/Sharepoint%20Analytic%20Training/presentation_1.html)
 
-Tools -> Global Options -> **Basic Settings***
+Tools -> Global Options -> **Basic Settings**
 
 1. Workspace: 
 - Uncheck “Restore .RData into workspace at startup”
@@ -153,6 +153,9 @@ Tools -> Global Options -> **Code**
 # Author: ...
 # Created: YYYY/MM/DD...
 # Last Modified By: ...
+
+# Package management ------------------------------------------------------
+renv::init()
 
 # Load libraries ----------------------------------------------------------
 
