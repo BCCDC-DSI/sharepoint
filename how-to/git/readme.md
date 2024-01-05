@@ -80,9 +80,10 @@ To see what was installed in your VE, issue:
 
 ## R 
 <details>
-### R Studio
 
-[Summary of ](file:///O:/BCCDC/Groups/Analytics/Data%20Science%20and%20Innovation/Research_Development_Training/Training%20and%20Education/Educational%20Development/Sharepoint%20Analytic%20Training/presentation_1.html)
+### Working in R Studio
+
+Summary below adapted from [R Working Group Cookbook](file:///O:/BCCDC/Groups/Analytics/Data%20Science%20and%20Innovation/Research_Development_Training/Training%20and%20Education/Educational%20Development/Sharepoint%20Analytic%20Training/presentation_1.html)
 
 Tools -> Global Options -> **Basic Settings***
 
