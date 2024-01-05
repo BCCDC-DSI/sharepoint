@@ -1,7 +1,7 @@
 # Topics
 
 <details>
-<summary>Getting started</summary>
+<summary>Getting started on software</summary>
 
 ## Bash <a id='gitbash'></a>
 <details>
