@@ -8,7 +8,8 @@ Note: this is possible only when repository is public
 Settings > Pages
 ```   
 </details> 
-   
+
+<hr>
 <details>
 <summary>Getting started on software</summary>
 
