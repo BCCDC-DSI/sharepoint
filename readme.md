@@ -1,5 +1,13 @@
 # Topics
 
+### How-to's
+<details>
+<summary>Publish GitHub pages</summary>
+```
+   Settings > Pages
+```   
+</details>details>
+   
 <details>
 <summary>Getting started on software</summary>
 
