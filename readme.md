@@ -5,9 +5,8 @@
 <details>
 <Summary>Publish GitHub pages</Summary>
 
-Note: this is possible only when repository is public   
-
-```Settings``` > ```Pages``` > ```Deploy```
+- Note: this is possible only when repository is public   
+- ```Settings``` > ```Pages``` > Click on ```Deploy```
 
 </details>
 
