@@ -1,3 +1,4 @@
+# Getting started with Git & GitHub
 
 Acknowledgement: below notes adapted from EHS (\\root\BCCDC\Groups\EHS\Research%20and%20Surveillance\Projects\GitRepositories\Git_Instructions.pdf).
 
