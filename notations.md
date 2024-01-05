@@ -21,6 +21,5 @@
 | $Z$ | |
 
 
-## R/ Python conventions
-- packages at the top
+
 
