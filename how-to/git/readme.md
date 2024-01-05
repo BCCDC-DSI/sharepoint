@@ -1,52 +1,6 @@
 Topics:
-- Getting started
-<details>
-<Summary>Best practices</Summary>
 
-## Naming files
-
-1. Use Universal Naming Convention (UNC) instead of dos path
-
-      - An example in R:
-      ```
-      sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache")
-      ```
-      
-      - Below will work in Windows' ```File Explorer```
-      ```//phsabc/root/BCCDC/Groups/Analytics_Resources/```
-
-2. Folder namng: replace white space with underscore 
-      e.g. UNC path   
-      ```
-      /o/BCCDC/Groups/Analytics/Data_Analysts
-      ```
-      When spaces are used in a folder name, the UNC of such folder would require additional escape characters (e.g. back slash), e.g.:  
-      ```
-      /o/BCCDC/Groups/Analytics/Data\ Science\ and\ Innovation/
-      ```
-
-
-## Coding practices (not specific to programming language)
-Ideally, use nouns when naming variables and verbs when naming functions:
-
-```
-# Good
-example_text <- example_function(
-  first_argument = "Some text",
-  second_argument = "More text"
-)
-```
-
-```
-# Bad
-some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
-```
-</details>
-
-</details>
-
-# Getting Started
-
+<details><summary>Getting started</summary>
 
 ## Bash <a id='gitbash'></a>
 <details>
@@ -359,4 +313,53 @@ git branch -d beta_version
 
 </details>
 
+
+
+
+</details>
+      
+<details>
+<Summary>Best practices</Summary>
+
+## Naming files
+
+1. Use Universal Naming Convention (UNC) instead of dos path
+
+      - An example in R:
+      ```
+      sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resources\Coding\R\global_renv\cache")
+      ```
+      
+      - Below will work in Windows' ```File Explorer```
+      ```//phsabc/root/BCCDC/Groups/Analytics_Resources/```
+
+2. Folder namng: replace white space with underscore 
+      e.g. UNC path   
+      ```
+      /o/BCCDC/Groups/Analytics/Data_Analysts
+      ```
+      When spaces are used in a folder name, the UNC of such folder would require additional escape characters (e.g. back slash), e.g.:  
+      ```
+      /o/BCCDC/Groups/Analytics/Data\ Science\ and\ Innovation/
+      ```
+
+
+## Coding practices (not specific to programming language)
+Ideally, use nouns when naming variables and verbs when naming functions:
+
+```
+# Good
+example_text <- example_function(
+  first_argument = "Some text",
+  second_argument = "More text"
+)
+```
+
+```
+# Bad
+some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
+```
+</details>
+
+</details>
 
