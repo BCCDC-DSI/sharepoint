@@ -114,6 +114,58 @@ Tools -> Global Options -> **Code**
 2. Add below to your ```.Renviron``` file on a new line:
 ```R_LIBS_USER=${R_USER}/Library/%v```
 
+
+### Template of a typical R script
+
+```
+# Project Information -----------------------------------------------------
+# Example Project Name...
+#                                               
+# Purpose: ...
+#                                               
+# Author: ...
+# Created: YYYY/MM/DD...
+# Last Modified By: ...
+
+# Load libraries ----------------------------------------------------------
+
+library("dplyr")
+library("ggplot2")
+library("purrr")
+
+# Set Directories ---------------------------------------------------------
+
+profile_folder <- paste0(getwd(), "/")
+
+script_folder <- paste0(profile_folder, "script/")
+function_folder <- paste0(script_folder, "function/")
+data_folder <- paste0(profile_folder, "data/")
+document_folder <- paste0(profile_folder, "document/")
+output_folder <- paste0(profile_folder, "output/")
+
+# Set Global Variables ----------------------------------------------------
+
+# Example p-value threshold for surveillance
+p_val <- 0.05
+
+# User Written Functions --------------------------------------------------
+
+source(paste0(function_folder, "fn_custom_func_1.R"))
+source(paste0(function_folder, "fn_custom_func_2.R"))
+source(paste0(function_folder, "fn_custom_func_3.R"))
+
+# Run Scripts -------------------------------------------------------------
+
+# Load data
+source(paste0(script_folder, "load.R"))
+
+# Clean data
+source(paste0(script_folder, "clean.R"))
+
+# Perform analysis
+source(paste0(script_folder, "do_analysis.R"))
+```
+
 </details>
 
 ## Git
