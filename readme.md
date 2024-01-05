@@ -1,6 +1,7 @@
 # Topics
 
 ### How-to's
+- [Select the right type of literature review](https://rightreview.knowledgetranslation.net/site/methods)
 <details>
 <summary>Publish GitHub pages</summary>
 Note: this is possible only when repository is public   
