@@ -343,7 +343,7 @@ sys.setenv(RENV_PATHS_CACHE = "\\phsabc.ebcnet.ca\BCCDC\Groups\Analytics_Resourc
 
 e.g. UNC path   
 ```
-/o/BCCDC/Groups/Analytics/Data_Ama;usts
+/o/BCCDC/Groups/Analytics/Data_Analysts
 ```
 
 ```
