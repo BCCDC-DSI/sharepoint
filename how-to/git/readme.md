@@ -67,6 +67,24 @@ To see what was installed in your VE, issue:
 </details>
 
 
+## Coding practices
+
+<details>
+Ideally, use nouns when naming variables and verbs when naming functions:
+
+```
+# Good
+example_text <- example_function(
+  first_argument = "Some text",
+  second_argument = "More text"
+)
+```
+
+```
+# Bad
+some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
+```
+</details>
  
 ## Python
 <details>
