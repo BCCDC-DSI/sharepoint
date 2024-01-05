@@ -4,9 +4,7 @@
 <details>
 <summary>Publish GitHub pages</summary>
 Note: this is possible only when repository is public   
-```
-Settings > Pages
-```   
+```Settings > Pages > Deploy```   
 </details> 
 
 <hr>
