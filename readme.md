@@ -72,7 +72,12 @@ Warning: Local R version vs. version on server
 
 [List under construction]
 
-To see what was installed in your VE, issue:
+- To get a list of VEs available on your station, issue:
+  ```
+  conda info --envs
+  ```
+
+- To see what was installed in your VE, issue:
   ```
   conda list
   ```
