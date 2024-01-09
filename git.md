@@ -51,7 +51,7 @@ git push
 Or run in 1 line:
 
 ```
-git add-commit -m 'My commit message
+git add-commit -m 'My commit message'
 ```
 
 **After** having created command alias called ```add-commit``` with this:
