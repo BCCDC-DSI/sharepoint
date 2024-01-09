@@ -42,6 +42,7 @@ A cycle of:
 [To be expanded]
 
 
+
 ### Making changes and commiting to the ```origin```
 ```
 git add --all
@@ -123,5 +124,17 @@ If you no longer need the experimental version and wish to delete it, issue:
 git branch -d beta_version
 ```
 
+### Summary of commands
+
+[To be completed]
+
+```
+git merge
+git rebase
+git rm
+...
+```
+
 ### Additional resources
 - [Summary list created by Rochelle A. on May 28, 2023](https://rochellea.medium.com/your-git-cheat-sheet-commands-to-remember-1381db3f8efd)
+- [Merge vs rebase, and other topics](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
