@@ -1,7 +1,8 @@
 # Topics
 
-### How-to's
+## How-to's
 - [Select the right type of literature review](https://rightreview.knowledgetranslation.net/site/methods)
+
 <details>
 <Summary>Publish GitHub pages</Summary>
 
