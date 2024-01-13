@@ -1,4 +1,8 @@
-# Live contents
+# Python
+
+- earthaccess h5pyd netcdf4 cartopy
+
+# Statistics
 
 ## Binary outcomes
   - Risk ratio
