@@ -1,8 +1,9 @@
-# Python
+# Possible Python topics
 
 - earthaccess h5pyd netcdf4 cartopy
 
-# Statistics
+
+# Live statistics topics
 
 ## Binary outcomes
   - Risk ratio
@@ -25,8 +26,7 @@
 - 
 
 
-## Possible topics
 
-### On setup
+# On setup
 
-[STATS 545](https://stat545.stat.ubc.ca/course/)
+- [STATS 545](https://stat545.stat.ubc.ca/course/)
