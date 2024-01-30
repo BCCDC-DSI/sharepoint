@@ -257,7 +257,7 @@ example_text <- example_function(
 some.really.long.dot.separated.name <- MyCoolFunction(FirstArgument = 'Some text', second.argument = 'More text')
 ```
 
-## Dash boarding best practices
+## Dashboard best practices
 [Under construnction](training/dashboards.md)
  
 </details>
