@@ -56,27 +56,6 @@ Warning: Local R version vs. version on server
    conda install -c anaconda git
    ```
 
-### Create virtual environment with Python and Git on your Windows 
-
-<a id="py_packages"></a>
-1. Program > Anaconda Powershell
-2. Create virtual environment (VE) named ```py3.12```
-   ```
-   conda create --name py3.12 python=3.12
-   ```
-3. Activate this VE:
-   ```
-   conda activate py3.12
-   ```   
-4. Interactive Python:
-   ```
-   pip install ipython
-   ```  
-5. Other Python packages
-   ```
-   pip install plotly streamlit polars
-   ```
-
    
 ### Other Conda commands
 
@@ -100,10 +79,33 @@ Warning: Local R version vs. version on server
 ## Python
 <details>
 
-- To install Python and Python packages, [see](#py_packages)  
-- To Create/ Update Jupyter kernel for use in Jupyter notebook:
+- To install Python and Python packages, 
+
+
+### Create virtual environment with Python and Git on your Windows 
+
+<a id="py_packages"></a>
+1. Program > Anaconda Powershell
+2. Create virtual environment (VE) named ```py3.12```
+   ```
+   conda create --name py3.12 python=3.12
+   ```
+3. Activate this VE:
+   ```
+   conda activate py3.12
+   ```   
+4. Interactive Python:
+   ```
+   pip install ipython
+   ```  
+5. Other Python packages
+   ```
+   pip install plotly streamlit polars
+   ```
+
+6. To Create/ Update Jupyter kernel for use in Jupyter notebook:
 ```ipython kernel install --user --name=r3.6-py3.11-streamlit```
-  where ```r3.6-py3.11-streamlit``` is the name of the kernel that you may select from on the menu
+  where ```r3.6-py3.11-streamlit``` is the name of the kernel that you may select from the menu once you launched Jupyter notebook (top-right corner)
 
 </details>
 
