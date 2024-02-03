@@ -78,9 +78,7 @@ Warning: Local R version vs. version on server
  
 ## Python
 <details>
-
-- To install Python and Python packages, 
-
+ 
 
 ### Create virtual environment with Python and Git on your Windows 
 
