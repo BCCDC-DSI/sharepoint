@@ -38,36 +38,45 @@ mkdir /o/BCCDC/Groups/new_group
 ## Conda
 <details>
 
-### Create virtual environment with latest R and Git on your desktop station 
+### Create virtual environment with latest R and Git on your Windows  
 
 Warning: Local R version vs. version on server
 
-1. Anaconda Powershell
-2. Create virtual environment (VE) named ```R```
+1. Program > Anaconda Powershell
+2. Create virtual environment (VE) named ```R4.3.1``` 
    ```
-   conda create --name R R
+   conda create --name R4.3.1 R=4.3.1
    ```
 3. Activate this VE:
    ```
-   conda activate R
+   conda activate R4.3.1
    ```
 5. Install Git via "anaconda" channel (```-c``` switch; c stands for channel):
    ```
    conda install -c anaconda git
    ```
 
-### Adding other environments in the same VE
-<a id="py_packages"></a>
+### Create virtual environment with Python and Git on your Windows 
 
-1. Python:
+<a id="py_packages"></a>
+1. Program > Anaconda Powershell
+2. Create virtual environment (VE) named ```py3.12```
    ```
-   conda install python ipython
+   conda create --name py3.12 python=3.12
    ```
-   
-2. Other Python packages
+3. Activate this VE:
    ```
-   conda install plotly streamlit
+   conda activate py3.12
+   ```   
+4. Interactive Python:
    ```
+   pip install ipython
+   ```  
+5. Other Python packages
+   ```
+   pip install plotly streamlit polars
+   ```
+
    
 ### Other Conda commands
 
@@ -83,6 +92,7 @@ Warning: Local R version vs. version on server
   conda list
   ```
 
+- [See Conda cheatsheet](https://conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
 </details>
 
 
