@@ -1,6 +1,25 @@
 # Topics
 
+<details>
 
+   <summary>Conda</summary>
+   - To include Spyder IDE:
+   ```
+   conda create -p c:\Users\py3.9 spyder=5.0.3 python=3.9
+   ```
+
+   - To search which VE has matplotlib:
+   ```
+   conda search matplotlib
+   ```
+
+   - To shorten the long prefix:
+   ```
+   conda config --set env_pormt '({name})'
+   ```
+
+
+</details>
 
 <details>
 
